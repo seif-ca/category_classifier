@@ -1,0 +1,9 @@
+name: category_classifier
+conda_env: conda.yaml
+
+entry_points:
+  main:
+    parameters:
+      remote: {type: int, default: 0}
+    command: "python train_keras.py {remote}"
+
