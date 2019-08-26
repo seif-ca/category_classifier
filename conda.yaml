@@ -6,6 +6,6 @@ dependencies:
 - tensorflow==1.13.1
 - pip:
   - mlflow==1.2.0
-  - hyperopt
+  - hyperopt==0.1.2.db6
   - sklearn
 name: keras-classifier
