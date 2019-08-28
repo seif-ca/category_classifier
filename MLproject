@@ -1,5 +1,4 @@
 name: category_classifier
-conda_env: conda.yaml
 
 entry_points:
   main:
