@@ -35,7 +35,7 @@ local_path = "data/products.csv"
 def get_cloud_data():
     spark = SparkSession.builder.getOrCreate()
     spark.sparkContext.setLogLevel('ERROR')
-    return spark.sql("select * from quentin.products").toPandas()
+    return spark.sql("select * from seif.products").toPandas()
 
 def get_local_data():
     return pd.read_csv(local_path)
